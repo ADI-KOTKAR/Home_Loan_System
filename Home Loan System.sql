@@ -12,7 +12,7 @@ use home_loan;
 create table signup(id int auto_increment, username varchar(100) not null, 
 phone_no varchar(10) not null unique, mail varchar(50) not null unique, 
 pass varchar(50) not null, confirm_pass varchar(50) not null, state varchar(50) not null,
-city varchar(50) not null, country varchar(50) not null,primary key(id));
+city varchar(50) not null, country varchar(50) not null,pincode varchar(10),primary key(id));
 
 -- Login table 
 create table login(log_id int, pass varchar(50) not null, account_type varchar(10) 
