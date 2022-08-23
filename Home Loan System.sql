@@ -15,7 +15,7 @@ pass varchar(50) not null, confirm_pass varchar(50) not null, state varchar(50) 
 city varchar(50) not null, country varchar(50) not null,pincode varchar(10),primary key(id));
 
 -- Login table 
-create table login(log_id int, pass varchar(50) not null, account_type varchar(10) 
+create table login(log_id int auto_increment,id int not null, pass varchar(50) not null, account_type varchar(10) 
 not null, primary key(log_id));
 
 -- Loan Application table
