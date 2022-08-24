@@ -1,0 +1,5 @@
+# Ignore all db files
+*.sql
+
+# Ignore all png files
+*.png
