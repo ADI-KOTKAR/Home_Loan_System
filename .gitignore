@@ -3,3 +3,6 @@
 
 # Ignore all png files
 *.png
+
+# Ignore Maven Test Folder
+/target
