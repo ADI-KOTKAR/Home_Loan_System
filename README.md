@@ -1,5 +1,5 @@
 
-# Barclays Capstone Project - Home Loan System
+# Capstone Project - Home Loan System
 
 A home loan system developed end to end using SpringBoot framework, Hibernate, MySQL databases, and REST APIs
 
