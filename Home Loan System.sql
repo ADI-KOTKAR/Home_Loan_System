@@ -95,17 +95,13 @@ constraint fk_sav_acc_3 foreign key(saving_acc_no) references signup(saving_acc_
 constraint fk_loan_acc_1 foreign key(loan_id) references loan_application(loan_id)
 );
 
-create table credit(id int auto_increment, saving_acc_no int not null unique,amount double not null,balance double not null,
+create table transaction(id int auto_increment, saving_acc_no int not null unique,amount double not null,balance double not null,
 primary key(id),
 constraint fk_sav_acc_4 foreign key(saving_acc_no) references signup(saving_acc_no),
 constraint fk_bal foreign key(balance) references savings_acc(balance)
 );
 
-create table debit(id int auto_increment, saving_acc_no int not null unique,amount double not null,balance double not null,
-primary key(id),
-constraint fk_sav_acc_5 foreign key(saving_acc_no) references signup(saving_acc_no),
-constraint fk_bal_1 foreign key(balance) references savings_acc(balance)
-);
+
 -- create table transaction(trans_id int auto_increment,loan_id int not null unique, 
 -- savings_acc_no int not null unique, balance double not null, primary key(trans_id));
 
