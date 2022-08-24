@@ -21,7 +21,7 @@ A home loan system developed end to end using SpringBoot framework, Hibernate, M
 - Aditya Kotkar
 - Dibyanshu Jaiswal
 - Divya Gautam
-- Ishan 
+- Ishan Gupta
 - Karthikeyan JM
 - Khushi Rohra
 - Mukhil Sundararaj Gowthaman
