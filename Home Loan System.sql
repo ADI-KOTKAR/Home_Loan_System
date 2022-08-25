@@ -44,7 +44,3 @@ outstanding_amt double not null, status varchar(30) not null,primary key(repay_i
 
 create table transaction(trans_id int auto_increment,loan_id int not null unique, 
 savings_acc_no int not null unique, balance double not null, primary key(trans_id));
-
-
-
- 
